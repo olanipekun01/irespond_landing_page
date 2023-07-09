@@ -1,0 +1,141 @@
+section.testimonial {
+    background-color: #00A346;
+    padding: 35px 15px;
+
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 40px;
+        width: 250px;
+        margin: auto;
+        color: white;
+        text-align: center;
+    }
+
+    .card_wrapper {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+
+        .content {
+            text-align: center;
+            margin-bottom: 40px;
+
+            .card {
+                background-color: #ffff;
+                width: 283px;
+                border-radius: 15px;
+                padding: 10px 30px;
+                margin-bottom: 20px;
+                h3 {
+                    color: #00A346;
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: 383A47;
+                }
+            }
+
+            .profile {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                width: 210px;
+                margin: auto;
+                img {
+
+                }
+
+                div {
+                    color: #ffff;
+                    text-align: left;
+                    p {
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 30px;
+                        // margin-bottom: 5px;
+                        margin: 0;
+                    }
+
+                    span {
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 675px) {
+    section.testimonial {
+        padding: 35px 95px;
+        h2 {
+            font-size: 48px;
+            font-weight: bold;
+            line-height: 58px;
+            width: 406px;
+        }
+
+        .card_wrapper {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            .content {
+                text-align: center;
+                margin-bottom: 40px;
+
+                .card {
+                    background-color: #ffff;
+                    width: 437px;
+                    border-radius: 15px;
+                    padding: 10px 35px;
+                    margin-bottom: 20px;
+                    h3 {
+                        font-size: 20px;
+                    }
+                    p {
+                        font-size: 18px;
+                        line-height: 28px;
+                    }
+                }
+
+                .profile {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 210px;
+                    margin: auto;
+                    img {
+
+                    }
+
+                    div {
+                        color: #ffff;
+                        text-align: left;
+                        p {
+                            font-size: 18px;
+                            font-weight: 500;
+                            line-height: 30px;
+                            // margin-bottom: 5px;
+                            margin: 0;
+                        }
+
+                        span {
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

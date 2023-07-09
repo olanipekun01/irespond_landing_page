@@ -1,0 +1,114 @@
+section.features {
+    padding: 15px 15px;
+    h2 {
+        font-size: 32px;
+        font-weight: 900;
+        color: #00A346;
+        line-height: 40px;
+        text-align: center;
+        span {
+            color: #313131;
+        }
+    }
+
+    .card_wrapper {
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: space-between;
+        .card {
+            border: 1px solid #D8D8D8;
+            height: 343px;
+            width: 342px;
+            text-align: center;
+            position: relative;
+            h3 {
+                text-align: center;
+                font-size: 22px;
+                font-weight: 900;
+                
+            }
+
+            p {
+                color: #313131;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 147.9%;
+                width: 228px;
+                height: 144px;
+                text-align: center;
+                margin: auto;
+            }
+
+            a {
+                width: 218px;
+                font-size: 16px;
+                font-weight: 700;
+                text-decoration: underline;
+                color: #313131;
+                position: absolute;
+                bottom: 30px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+}
+
+@media (min-width: 675px) {
+    section.features {
+        padding: 15px 95px;
+            h2 {
+                font-size: 65px;
+                font-weight: 900;
+                color: #00A346;
+                line-height: 100%;
+                text-align: center;
+    
+                span {
+                    color: #313131;
+                }
+            }
+    
+            .card_wrapper {
+                // display: flex;
+                // flex-direction: row;
+                // justify-content: space-between;
+                .card {
+                    border: 1px solid #D8D8D8;
+                    height: 343px;
+                    width: 342px;
+                    text-align: center;
+                    position: relative;
+                    h3 {
+                        text-align: center;
+                        font-size: 22px;
+                        font-weight: 900;
+                        
+                    }
+
+                    p {
+                        color: #313131;
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 147.9%;
+                        width: 228px;
+                        height: 144px;
+                        text-align: center;
+                        margin: auto;
+                    }
+
+                    a {
+                        width: 218px;
+                        font-size: 16px;
+                        font-weight: 700;
+                        text-decoration: underline;
+                        color: #313131;
+                        position: absolute;
+                        bottom: 30px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+            }
+        }
+}

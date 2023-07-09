@@ -1,0 +1,215 @@
+header {
+    background-color: #00A346;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+
+    .logo_icon {}
+
+    .hamburger_icon {}
+
+    .hamburger_icon.active {
+        display: none;
+    }
+
+    .close_btn_icon {
+        display: none;
+    }
+
+    .close_btn_icon.active {
+        display: block;
+        z-index: 999;
+    }
+
+    nav {
+        // display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        width: 375px;
+        background: #FFFFFF;
+        margin-left: -15px;
+        z-index: 777;
+        display: none;
+
+        ul {
+            list-style: none;
+            width: 100%;
+            padding: 0;
+            padding-top: 52px;
+            text-align: center;
+
+            li {
+                color: #1A1A1A;
+                font-size: 20px;
+                font-weight: 500;
+                padding: 20px 0;
+                border-bottom: 1px solid #D8D8D8;
+            }
+
+            li:hover {
+                letter-spacing: 0.8px;
+            }
+
+            li.top {
+                border-top: 1px solid #D8D8D8;
+            }
+        }
+        
+
+        .btn_wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            padding-bottom: 80px;
+            .signin_btn {
+                color: #00A346;
+                background-color: #FFFFFF;
+                border: 1px solid #00A346;
+                border-radius: 10px;
+                font-size: 20px;
+                font-weight: 900;
+                padding: 15px 0;
+                width: 320px;
+            }
+        
+            .signin_btn:hover {
+                border: 1px solid #FFFFFF;
+                border-radius: 10px;
+                letter-spacing: .5px;
+            }
+        
+            .book_session_btn {
+                background-color: #00A346;
+                padding: 15px 0px;
+                color: #FFFFFF;
+                border-radius: 10px;
+                border: none;
+                font-size: 20px;
+                font-weight: 900;
+                margin-top: 20px;
+                width: 320px;
+            }
+        
+            .book_session_btn:hover {
+                letter-spacing: 0.5px;
+            }
+        }
+
+    }
+
+    nav.active {
+        display: flex;
+    }
+}
+
+@media (min-width: 675px) {
+    header {
+        background-color: #00A346;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 95px;
+
+        .logo_icon {}
+
+        .hamburger_icon {
+            display: none;
+        }
+
+        .hamburger_icon.active {
+            display: none;
+        }
+
+        .close_btn_icon {
+            display: none;
+        }
+        .close_btn_icon.active {
+            display: none;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            flex-direction: row;
+            top: 0px;
+            width: 815px;
+            background: #00A346;
+            margin-left: 0px;
+                
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                list-style: none;
+                width: 456px;
+                color: #FFFFFF;
+                font-size: 16px;
+                padding-top: 0;
+
+                li {
+                    border-bottom: none;
+                    color: #FFFFFF;
+                    padding: 0px 0;
+                    font-size: 16px;
+                }
+
+                li.top {
+                    border-top: none;
+                }
+            }
+        
+
+            .btn_wrapper {
+                flex-direction: row;
+                width: 250px;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 0px;
+                padding-bottom: 0px;
+
+
+                .signin_btn {
+                    background-color: #00A346;
+                    color: #FFFFFF;
+                    border: none;
+                    font-size: 16px;
+                    font-weight: 500;
+                    padding: 15px 20px;
+                    width:auto;
+                }
+
+                .signin_btn:hover {
+                    border: 1px solid #FFFFFF;
+                    border-radius: 10px;
+                    letter-spacing: .5px;
+                    
+                }
+
+                .book_session_btn {
+                    background-color: #FFFFFF;
+                    padding: 15px 20px;
+                    color: #00A346;
+                    border-radius: 10px;
+                    border: none;
+                    font-size: 16px;
+                    font-weight: 500;
+                    width: auto;
+                    margin-top: 0;
+                }
+
+                .book_session_btn:hover{
+                    letter-spacing: 0.5px;
+                }
+            }
+
+        }
+    }
+
+}

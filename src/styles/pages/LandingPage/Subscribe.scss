@@ -1,0 +1,118 @@
+section.subscribe {
+    .container {
+        background-color: #C2CBDE;
+        padding: 35px 0px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        div {
+            text-align: center;
+            h2 {
+                font-size: 36px;
+                font-weight: bold;
+                line-height: 40px;
+                color: #383A47;
+                margin: 0px auto 20px auto;
+            }
+
+            p {
+                width: 301px;
+                font-size: 18px;
+                line-height: 32px;
+                color: #383A47;
+                margin: auto;
+                margin: 0px auto 45px auto;
+            }
+
+
+            
+        }
+
+        button {
+            width: 260px;
+            padding: 15px 0;
+            background-color: #00A346;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            margin: auto;
+            margin-bottom: 40px;
+            cursor: pointer;
+            position: relative;
+            z-index: 999;
+        }
+
+        button:hover {
+            letter-spacing: 0.6px;
+        }
+
+        img {
+            position: absolute;
+            bottom: 50px;
+            right: 150px;
+            width: 63px;
+            height: 95px;
+            z-index: 444;
+        }
+    }
+
+
+}
+
+@media (min-width: 675px) {
+    section.subscribe {
+        padding: 35px 95px;
+        .container {
+            background-color: #C2CBDE;
+            padding: 75px 80px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            div {
+                text-align: left;
+                width: 622px;
+                h2 {
+                    font-size: 48px;
+                    font-weight: bold;
+                    line-height: 56px;
+                    color: #383A47;
+                    margin: 0px 0 20px 0;
+                }
+
+                p {
+                    width: 512px;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #383A47;
+                    margin: auto;
+                    margin: 0px 0 0px 0;
+                }
+
+                
+            }
+
+            button {
+                width: 260px;
+                padding: 15px 0;
+                background-color: #00A346;
+                font-size: 18px;
+                color: #fff;
+                border: none;
+                border-radius: 3px;
+                margin: 0;
+            }
+
+            img {
+                position: absolute;
+                bottom: 95px;
+                right: 175px;
+                width: 63px;
+                height: 100px;
+            }
+        }
+
+
+    }
+}
